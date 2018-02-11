@@ -8,12 +8,8 @@ import javax.annotation.PreDestroy;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class BootConsulApplication {
+public class BootEtcdApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BootConsulApplication.class);
-	}
-	@PreDestroy
-	public void test(){
-
+		SpringApplication.run(BootEtcdApplication.class);
 	}
 }
